@@ -1,0 +1,3283 @@
+@media screen and (max-width: 165px) {
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	html {
+		background-color: white;
+	}
+	body {
+		width: 100%;
+	}
+	header {
+		width: 100%;
+		height: 97vh;
+	}
+	main {
+		position: relative;
+		height: 100%;
+		width: 100%;
+		background-color: white;
+	}
+	footer {
+		position: absolute;
+		width: 100%;
+		background-color: white;
+		color: black;
+		text-align: center;
+		font-family: 'Inconsolata', monospace;
+		font-size: 9px;
+		padding: 20px 7px;
+		margin: 0 auto;
+	}
+	img {
+		width: 100%;
+	}
+	#copyright p {
+		text-shadow: 1px 1px 2px black;
+	}
+	#menub {
+		position: relative;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		padding: 10px;
+	}
+	#menubar {
+		cursor: pointer;
+		background-color: white;
+		color: black;
+		outline: none;
+		border: none;
+		list-style: none;
+		font-family: verdana;
+		font-weight: bold;
+		font-size: 7px;
+		padding: 4px;
+	}
+	#menubar:hover {
+		background: black;
+		border-radius: 25px;
+		color: white;
+	}
+	#capa {
+		position: relative;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/capa.jpg");
+		height: 100%;
+	}
+	#logo img {
+		display: block;
+		margin: auto;
+		max-width: 100%;
+	}
+	#lema {
+		position: absolute;
+		width: 80%;
+		top: 90%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+		color: white;
+		margin: auto;
+		text-align: center;
+		font-family: papyrus;
+		font-weight: bold;
+		font-size: 6px;
+		padding-bottom: 10px;
+	}
+	#lema span {
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+	}
+	#data {
+		font-family: papyrus;
+		font-weight: bold;
+		font-size: 10px;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		text-align: center;
+		padding: 5px;
+	}
+	#titulo {
+		font-family: papyrus;
+		font-weight: bold;
+		font-size: 13px;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		text-align: center;
+		padding-bottom: 25px;
+	}
+	#blog {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 10px;
+	}
+	#blog article {
+		font-family: 'Inconsolata', monospace;
+		font-size: 13px;
+		color: black;
+		text-align: justify;
+		padding: 10px;
+	}
+	#vlog {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 10px;
+	}
+	#vlog iframe {
+		max-width: 100%;
+		padding-bottom: 35px;	
+	}
+	#vlog h1 {
+		font-size: 10px;
+		font-family: papyrus;
+	}
+	#sobre {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 10px;
+	}
+	#sobre article {
+		font-family: 'Inconsolata', monospace;
+		font-size: 12px;
+		color: black;
+		text-align: justify;
+	}
+	#grid-container {
+		display: block;
+		grid-template-columns: auto auto;
+		justify-items: center;
+		align-items: center;
+		padding: 5px;
+	}
+	#grid {
+		width: 100%;
+		height: 100%; 
+		text-align: center;
+		padding-top: 20px;
+	}
+	#grid span {
+		font-family: papyrus;
+		font-weight: bold;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		font-size: 15px;
+	}
+	#grid-containers {
+		display: grid;
+		grid-template-columns: auto 0vw auto;
+		grid-template-rows: auto auto auto auto auto;
+		align-items: center;
+		justify-items: left;
+		padding-top: 20px;
+		background-color: #F0F0F0;
+		border: 2px solid #D0D0D0;
+		border-radius: 15px;
+		padding: 10px;
+	}
+	#grid-containers > :nth-child(3n+2) {
+		visibility: hidden;
+	}
+	#grid-item {
+		font-family: Lucida Console;
+		text-shadow: 1px 1px 3px white;
+		letter-spacing: 2px;
+		padding: 1px;
+		font-size: 10px;
+	}
+	#box1 {
+		display: inline-block;
+		width: 144px;
+		height: 90px;
+		box-shadow: 5px 5px 10px black;
+		text-align: left;
+		line-height: 40px;
+		cursor: pointer;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/molhe.JPG");
+	}
+	#box2 {
+		display: inline-block;
+		width: 144px;
+		height: 90px;
+		box-shadow: 5px 5px 10px black;
+		text-align: left;
+		line-height: 40px;
+		cursor: pointer;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/ilha.JPG");
+	}
+	#marcadagua {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-image: url("./img/marcadagua.png");
+		background-position: right bottom;
+		opacity: 0.7;
+	}
+	#redimencionamento {
+		background-color: #F0F0F0;
+		border: 2px solid #D0D0D0;
+		border-radius: 25px;
+		font-family: 'Inconsolata', monospace;
+		text-align: center;
+	}
+	#redimencionamento span {
+		font-size: 12px;
+	}
+	#destaque {
+		font-family: papyrus;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		font-size: 10px;
+	}
+	#contato {
+		display: block;
+		font-family: 'Inconsolata', monospace;
+		font-size: 10px;
+		color: black;
+		text-align: justify;
+		padding: 10px;
+		margin: auto;
+	}
+	#contato img {
+		display: block;
+		width: 20vw;
+		margin: auto;
+	}
+}
+@media screen and (min-width: 165px) {
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	html {
+		background-color: white;
+	}
+	body {
+		width: 100%;
+	}
+	header {
+		width: 100%;
+		height: 55vh;
+	}
+	main {
+		position: relative;
+		height: 100%;
+		width: 100%;
+		background-color: white;
+	}
+	footer {
+		position: absolute;
+		width: 100%;
+		background-color: white;
+		color: black;
+		text-align: center;
+		font-family: 'Inconsolata', monospace;
+		font-size: 9px;
+		padding: 25px 5px;
+		margin: 0 auto;
+	}
+	img {
+		width: 100%;
+	}
+	#copyright p {
+		text-shadow: 1px 1px 2px black;
+	}
+	#menub {
+		position: relative;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		padding: 10px;
+	}
+	#menubar {
+		cursor: pointer;
+		background-color: white;
+		color: black;
+		outline: none;
+		border: none;
+		list-style: none;
+		font-family: verdana;
+		font-weight: bold;
+		font-size: 11px;
+		padding: 16px;
+	}
+	#menubar:hover {
+		background: black;
+		border-radius: 25px;
+		color: white;
+	}
+	#capa {
+		position: relative;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/capa.jpg");
+		height: 100%;
+	}
+	#logo img {
+		display: block;
+		margin: auto;
+		max-width: 100%;
+	}
+	#lema {
+		position: absolute;
+		width: 47%;
+		top: 90%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+		color: white;
+		margin: auto;
+		text-align: center;
+		font-family: papyrus;
+		font-weight: bold;
+		font-size: 7px;
+		padding: 5px;
+	}
+	#lema span {
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+	}
+	#data {
+		font-family: papyrus;
+		font-weight: bold;
+		font-size: 13px;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		text-align: center;
+		padding: 35px 0px 0px;
+	}
+	#titulo {
+		font-family: papyrus;
+		font-weight: bold;
+		font-size: 12px;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	#blog {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 15px;
+	}
+	#blog article {
+		font-family: 'Inconsolata', monospace;
+		font-size: 14px;
+		color: black;
+		text-align: justify;
+		padding: 10px;
+		padding-bottom: 30px;
+	}
+	#vlog {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 15px;
+	}
+	#vlog iframe {
+		width: 100%;
+		padding-bottom: 35px;
+	}
+	#vlog h1 {
+		font-size: 20px;
+		font-family: papyrus;
+	}
+	#sobre {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 20px;
+	}
+	#sobre article {
+		font-family: 'Inconsolata', monospace;
+		font-size: 14px;
+		color: black;
+		text-align: justify;
+	}
+	#grid-container {
+		display: block;
+		grid-template-columns: auto auto;
+		justify-items: center;
+		align-items: center;
+		padding: 25px;
+	}
+	#grid {
+		width: 100%;
+		height: 100%; 
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	#grid span {
+		font-family: papyrus;
+		font-weight: bold;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		font-size: 30px;
+	}
+	#grid-containers {
+		display: grid;
+		grid-template-columns: 5vw 50vw auto;
+		grid-template-rows: auto auto auto auto auto;
+		align-items: center;
+		justify-items: left;
+		padding-top: 20px;
+		background-color: #F0F0F0;
+		border: 2px solid #D0D0D0;
+		border-radius: 25px;
+		padding: 10px;
+	}
+	#grid-item {
+		font-family: Lucida Console;
+		text-shadow: 1px 1px 3px white;
+		letter-spacing: 2px;
+		padding: 3px;
+		font-size: 9px;
+	}
+	#box1 {
+		display: inline-block;
+		width: 282px;
+		height: 170px;
+		box-shadow: 5px 5px 10px black;
+		text-align: left;
+		line-height: 40px;
+		cursor: pointer;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/molhe.JPG");
+	}
+	#box2 {
+		display: inline-block;
+		width: 282px;
+		height: 170px;
+		box-shadow: 5px 5px 10px black;
+		text-align: left;
+		line-height: 40px;
+		cursor: pointer;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/ilha.JPG");
+	}
+	#marcadagua {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-image: url("./img/marcadagua.png");
+		background-position: right bottom;
+		opacity: 0.7;
+	}
+	#redimencionamento {
+		background-color: #F0F0F0;
+		border: 2px solid #D0D0D0;
+		border-radius: 25px;
+		font-family: 'Inconsolata', monospace;
+		text-align: center;
+	}
+	#redimencionamento span {
+		font-size: 13px;
+	}
+	#destaque {
+		font-family: papyrus;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		font-size: 9px;
+	}
+	#contato {
+		display: grid;
+		grid-template-columns: 13vw auto;
+		grid-template-rows: auto auto;
+		justify-content: center;
+		justify-items: left;
+		margin: auto;
+		font-family: 'Inconsolata', monospace;
+		font-size: 17px;
+		color: black;
+		margin: auto;
+	}
+	#contato img {
+		width: 10vw;
+	}
+}
+@media screen and (min-width: 242px) {
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	html {
+		background-color: white;
+	}
+	body {
+		width: 100%;
+	}
+	header {
+		width: 100%;
+		height: 55vh;
+	}
+	main {
+		position: relative;
+		height: 100%;
+		width: 100%;
+		background-color: white;
+	}
+	footer {
+		position: absolute;
+		width: 100%;
+		background-color: white;
+		color: black;
+		text-align: center;
+		font-family: 'Inconsolata', monospace;
+		font-size: 9px;
+		padding: 25px 5px;
+		margin: 0 auto;
+	}
+	img {
+		width: 100%;
+	}
+	#copyright p {
+		text-shadow: 1px 1px 2px black;
+	}
+	#menub {
+		position: relative;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		padding: 10px;
+	}
+	#menubar {
+		cursor: pointer;
+		background-color: white;
+		color: black;
+		outline: none;
+		border: none;
+		list-style: none;
+		font-family: verdana;
+		font-weight: bold;
+		font-size: 11px;
+		padding: 16px;
+	}
+	#menubar:hover {
+		background: black;
+		border-radius: 25px;
+		color: white;
+	}
+	#capa {
+		position: relative;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/capa.jpg");
+		height: 100%;
+	}
+	#logo img {
+		display: block;
+		margin: auto;
+		max-width: 100%;
+	}
+	#lema {
+		position: absolute;
+		width: 47%;
+		top: 90%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+		color: white;
+		margin: auto;
+		text-align: center;
+		font-family: papyrus;
+		font-weight: bold;
+		font-size: 7px;
+		padding: 5px;
+	}
+	#lema span {
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+	}
+	#data {
+		font-family: papyrus;
+		font-weight: bold;
+		font-size: 13px;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		text-align: center;
+		padding: 35px 0px 0px;
+	}
+	#titulo {
+		font-family: papyrus;
+		font-weight: bold;
+		font-size: 12px;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	#blog {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 15px;
+	}
+	#blog article {
+		font-family: 'Inconsolata', monospace;
+		font-size: 14px;
+		color: black;
+		text-align: justify;
+		padding: 10px;
+		padding-bottom: 30px;
+	}
+	#vlog {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 15px;
+	}
+	#vlog iframe {
+		width: 100%;
+		padding-bottom: 35px;
+	}
+	#vlog h1 {
+		font-size: 20px;
+		font-family: papyrus;
+	}
+	#sobre {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 20px;
+	}
+	#sobre article {
+		font-family: 'Inconsolata', monospace;
+		font-size: 14px;
+		color: black;
+		text-align: justify;
+	}
+	#grid-container {
+		display: block;
+		grid-template-columns: auto auto;
+		justify-items: center;
+		align-items: center;
+		padding: 0px 25px;
+	}
+	#grid {
+		width: 100%;
+		height: 100%; 
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	#grid span {
+		font-family: papyrus;
+		font-weight: bold;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		font-size: 30px;
+	}
+	#grid-containers {
+		display: grid;
+		grid-template-columns: 5vw 50vw auto;
+		grid-template-rows: auto auto auto auto auto;
+		align-items: center;
+		justify-items: left;
+		padding-top: 20px;
+		background-color: #F0F0F0;
+		border: 2px solid #D0D0D0;
+		border-radius: 25px;
+		padding: 10px;
+	}
+	#grid-item {
+		font-family: Lucida Console;
+		text-shadow: 1px 1px 3px white;
+		letter-spacing: 2px;
+		padding: 3px;
+		font-size: 9px;
+	}
+	#box1 {
+		display: inline-block;
+		width: 282px;
+		height: 170px;
+		box-shadow: 5px 5px 10px black;
+		text-align: left;
+		line-height: 40px;
+		cursor: pointer;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/molhe.JPG");
+	}
+	#box2 {
+		display: inline-block;
+		width: 282px;
+		height: 170px;
+		box-shadow: 5px 5px 10px black;
+		text-align: left;
+		line-height: 40px;
+		cursor: pointer;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/ilha.JPG");
+	}
+	#marcadagua {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-image: url("./img/marcadagua.png");
+		background-position: right bottom;
+		opacity: 0.7;
+	}
+	#redimencionamento {
+		background-color: #F0F0F0;
+		border: 2px solid #D0D0D0;
+		border-radius: 25px;
+		font-family: 'Inconsolata', monospace;
+		text-align: center;
+	}
+	#redimencionamento span {
+		font-size: 13px;
+	}
+	#destaque {
+		font-family: papyrus;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		font-size: 9px;
+	}
+	#contato {
+		display: grid;
+		grid-template-columns: 13vw auto;
+		grid-template-rows: auto auto;
+		justify-content: center;
+		justify-items: left;
+		margin: auto;
+		font-family: 'Inconsolata', monospace;
+		font-size: 17px;
+		color: black;
+		margin: auto;
+	}
+	#contato img {
+		width: 10vw;
+	}
+}
+@media screen and (min-width: 320px) {
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	html {
+		background-color: white;
+	}
+	body {
+		width: 100%;
+	}
+	header {
+		width: 100%;
+		height: 55vh;
+	}
+	main {
+		position: relative;
+		height: 100%;
+		width: 100%;
+		background-color: white;
+	}
+	footer {
+		position: absolute;
+		width: 100%;
+		background-color: white;
+		color: black;
+		text-align: center;
+		font-family: 'Inconsolata', monospace;
+		font-size: 9px;
+		padding: 25px 5px;
+		margin: 0 auto;
+	}
+	img {
+		width: 100%;
+	}
+	#copyright p {
+		text-shadow: 1px 1px 2px black;
+	}
+	#menub {
+		position: relative;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		padding: 10px;
+	}
+	#menubar {
+		cursor: pointer;
+		background-color: white;
+		color: black;
+		outline: none;
+		border: none;
+		list-style: none;
+		font-family: verdana;
+		font-weight: bold;
+		font-size: 11px;
+		padding: 16px;
+	}
+	#menubar:hover {
+		background: black;
+		border-radius: 25px;
+		color: white;
+	}
+	#capa {
+		position: relative;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/capa.jpg");
+		height: 100%;
+	}
+	#logo img {
+		display: block;
+		margin: auto;
+		max-width: 100%;
+	}
+	#lema {
+		position: absolute;
+		width: 47%;
+		top: 90%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+		color: white;
+		margin: auto;
+		text-align: center;
+		font-family: papyrus;
+		font-weight: bold;
+		font-size: 7px;
+		padding: 5px;
+	}
+	#lema span {
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+	}
+	#data {
+		font-family: papyrus;
+		font-weight: bold;
+		font-size: 13px;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		text-align: center;
+		padding: 35px 0px 0px;
+	}
+	#titulo {
+		font-family: papyrus;
+		font-weight: bold;
+		font-size: 12px;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	#blog {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 15px;
+	}
+	#blog article {
+		font-family: 'Inconsolata', monospace;
+		font-size: 14px;
+		color: black;
+		text-align: justify;
+		padding: 10px;
+		padding-bottom: 30px;
+	}
+	#vlog {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 15px;
+	}
+	#vlog iframe {
+		width: 100%;
+		padding-bottom: 35px;
+	}
+	#vlog h1 {
+		font-size: 20px;
+		font-family: papyrus;
+	}
+	#sobre {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 20px;
+	}
+	#sobre article {
+		font-family: 'Inconsolata', monospace;
+		font-size: 14px;
+		color: black;
+		text-align: justify;
+	}
+	#grid-container {
+		display: block;
+		grid-template-columns: auto auto;
+		justify-items: center;
+		align-items: center;
+		padding: 0px 25px;
+	}
+	#grid {
+		width: 100%;
+		height: 100%; 
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	#grid span {
+		font-family: papyrus;
+		font-weight: bold;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		font-size: 30px;
+	}
+	#grid-containers {
+		display: grid;
+		grid-template-columns: 5vw 50vw auto;
+		grid-template-rows: auto auto auto auto auto;
+		align-items: center;
+		justify-items: left;
+		padding-top: 20px;
+		background-color: #F0F0F0;
+		border: 2px solid #D0D0D0;
+		border-radius: 25px;
+		padding: 10px;
+	}
+	#grid-item {
+		font-family: Lucida Console;
+		text-shadow: 1px 1px 3px white;
+		letter-spacing: 2px;
+		padding: 3px;
+		font-size: 9px;
+	}
+	#box1 {
+		display: inline-block;
+		width: 282px;
+		height: 170px;
+		box-shadow: 5px 5px 10px black;
+		text-align: left;
+		line-height: 40px;
+		cursor: pointer;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/molhe.JPG");
+	}
+	#box2 {
+		display: inline-block;
+		width: 282px;
+		height: 170px;
+		box-shadow: 5px 5px 10px black;
+		text-align: left;
+		line-height: 40px;
+		cursor: pointer;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/ilha.JPG");
+	}
+	#marcadagua {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-image: url("./img/marcadagua.png");
+		background-position: right bottom;
+		opacity: 0.7;
+	}
+	#redimencionamento {
+		background-color: #F0F0F0;
+		border: 2px solid #D0D0D0;
+		border-radius: 25px;
+		font-family: 'Inconsolata', monospace;
+		text-align: center;
+	}
+	#redimencionamento span {
+		font-size: 13px;
+	}
+	#destaque {
+		font-family: papyrus;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		font-size: 9px;
+	}
+	#contato {
+		display: grid;
+		grid-template-columns: 13vw auto;
+		grid-template-rows: auto auto;
+		justify-content: center;
+		justify-items: left;
+		margin: auto;
+		font-family: 'Inconsolata', monospace;
+		font-size: 17px;
+		color: black;
+		margin: auto;
+	}
+	#contato img {
+		width: 10vw;
+	}
+}
+@media screen and (min-width: 360px) {
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	html {
+		background-color: white;
+	}
+	body {
+		width: 100%;
+	}
+	header {
+		width: 100%;
+		height: 45vh;
+	}
+	main {
+		position: relative;
+		height: 100%;
+		width: 100%;
+		background-color: white;
+	}
+	footer {
+		position: absolute;
+		width: 100%;
+		background-color: white;
+		color: black;
+		text-align: center;
+		font-family: 'Inconsolata', monospace;
+		font-size: 10px;
+		padding: 25px 5px;
+		margin: 0 auto;
+	}
+	img {
+		width: 100%;
+	}
+	#copyright p {
+		text-shadow: 1px 1px 2px black;
+	}
+	#menub {
+		position: relative;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		padding: 10px;
+	}
+	#menubar {
+		cursor: pointer;
+		background-color: white;
+		color: black;
+		outline: none;
+		border: none;
+		list-style: none;
+		font-family: verdana;
+		font-weight: bold;
+		font-size: 12px;
+		padding: 16px;
+	}
+	#menubar:hover {
+		background: black;
+		border-radius: 25px;
+		color: white;
+	}
+	#capa {
+		position: relative;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/capa.jpg");
+		height: 100%;
+	}
+	#logo img {
+		display: block;
+		margin: auto;
+		max-width: 100%;
+	}
+	#lema {
+		position: absolute;
+		width: 40%;
+		top: 90%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+		color: white;
+		margin: auto;
+		text-align: center;
+		font-family: papyrus;
+		font-weight: bold;
+		font-size: 7px;
+		padding: 5px;
+	}
+	#lema span {
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+	}
+	#data {
+		font-family: papyrus;
+		font-weight: bold;
+		font-size: 12px;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		text-align: center;
+		padding: 35px 0px 0px;
+	}
+	#titulo {
+		font-family: papyrus;
+		font-weight: bold;
+		font-size: 14px;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	#blog {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 15px;
+	}
+	#blog article {
+		font-family: 'Inconsolata', monospace;
+		font-size: 14px;
+		color: black;
+		text-align: justify;
+		padding: 10px;
+		padding-bottom: 30px;
+	}
+	#vlog {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 15px;
+	}
+	#vlog iframe {
+		width: 100%;
+		padding-bottom: 35px;
+	}
+	#vlog h1 {
+		font-size: 25px;
+		font-family: papyrus;
+	}
+	#sobre {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 25px;
+	}
+	#sobre article {
+		font-family: 'Inconsolata', monospace;
+		font-size: 14px;
+		color: black;
+		text-align: justify;
+	}
+	#grid-container {
+		display: block;
+		grid-template-columns: auto auto;
+		justify-items: center;
+		align-items: center;
+		padding: 0px 25px;
+	}
+	#grid {
+		width: 100%;
+		height: 100%; 
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	#grid span {
+		font-family: papyrus;
+		font-weight: bold;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		font-size: 35px;
+	}
+	#grid-containers {
+		display: grid;
+		grid-template-columns: 5vw 50vw auto;
+		grid-template-rows: auto auto auto auto auto;
+		align-items: center;
+		justify-items: left;
+		padding-top: 20px;
+		padding-left: 14px;
+		background-color: #F0F0F0;
+		border: 2px solid #D0D0D0;
+		border-radius: 25px;
+		padding: 10px;
+	}
+	#grid-item {
+		font-family: Lucida Console;
+		text-shadow: 1px 1px 3px white;
+		letter-spacing: 2px;
+		padding: 3px;
+		font-size: 11px;
+	}
+	#box1 {
+		display: inline-block;
+		width: 322px;
+		height: 200px;
+		box-shadow: 5px 5px 10px black;
+		text-align: left;
+		line-height: 40px;
+		cursor: pointer;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/molhe.JPG");
+	}
+	#box2 {
+		display: inline-block;
+		width: 322px;
+		height: 200px;
+		box-shadow: 5px 5px 10px black;
+		text-align: left;
+		line-height: 40px;
+		cursor: pointer;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/ilha.JPG");
+	}
+	#marcadagua {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-image: url("./img/marcadagua.png");
+		background-position: right bottom;
+		opacity: 0.7;
+	}
+	#redimencionamento {
+		background-color: #F0F0F0;
+		border: 2px solid #D0D0D0;
+		border-radius: 25px;
+		font-family: 'Inconsolata', monospace;
+	}
+	#redimencionamento span {
+		font-size: 14px;
+	}
+	#destaque {
+		font-family: papyrus;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		font-size: 11px;
+	}
+	#contato {
+		display: grid;
+		grid-template-columns: 11vw auto;
+		grid-template-rows: auto auto;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		font-family: 'Inconsolata', monospace;
+		font-size: 17px;
+		color: black;
+		margin: auto;
+	}
+	#contato img {
+		width: 10vw;
+	}
+}
+@media screen and (min-width: 390px) {
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	html {
+		background-color: white;
+	}
+	body {
+		width: 100%;
+	}
+	header {
+		width: 100%;
+		height: 45vh;
+	}
+	main {
+		position: relative;
+		height: 100%;
+		width: 100%;
+		background-color: white;
+	}
+	footer {
+		position: absolute;
+		width: 100%;
+		background-color: white;
+		color: black;
+		text-align: center;
+		font-family: 'Inconsolata', monospace;
+		font-size: 11px;
+		padding: 25px 5px;
+		margin: 0 auto;
+	}
+	img {
+		width: 100%;
+	}
+	#copyright p {
+		text-shadow: 1px 1px 2px black;
+	}
+	#menub {
+		position: relative;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		padding: 10px;
+	}
+	#menubar {
+		cursor: pointer;
+		background-color: white;
+		color: black;
+		outline: none;
+		border: none;
+		list-style: none;
+		font-family: verdana;
+		font-weight: bold;
+		font-size: 15px;
+		padding: 16px;
+	}
+	#menubar:hover {
+		background: black;
+		border-radius: 25px;
+		color: white;
+	}
+	#capa {
+		position: relative;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/capa.jpg");
+		height: 100%;
+	}
+	#logo img {
+		display: block;
+		margin: auto;
+		max-width: 100%;
+	}
+	#lema {
+		position: absolute;
+		width: 41%;
+		top: 90%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+		color: white;
+		margin: auto;
+		text-align: center;
+		font-family: papyrus;
+		font-weight: bold;
+		font-size: 8px;
+		padding: 3px;
+	}
+	#lema span {
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+	}
+	#data {
+		font-family: papyrus;
+		font-weight: bold;
+		font-size: 14px;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		text-align: center;
+		padding: 35px 0px 0px;
+	}
+	#titulo {
+		font-family: papyrus;
+		font-weight: bold;
+		text-shadow: 1px 1px 2px #00FF00;
+		font-size: 15px;
+		letter-spacing: 3px;
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	#blog {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 15px;
+	}
+	#blog article {
+		font-family: 'Inconsolata', monospace;
+		font-size: 14px;
+		color: black;
+		text-align: justify;
+		padding: 10px;
+		padding-bottom: 30px;
+	}
+	#vlog {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 15px;
+	}
+	#vlog iframe {
+		width: 100%;
+		padding-bottom: 35px;
+	}
+	#vlog h1 {
+		font-size: 25px;
+		font-family: papyrus;
+	}
+	#sobre {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 25px;
+	}
+	#sobre article {
+		font-family: 'Inconsolata', monospace;
+		font-size: 14px;
+		color: black;
+		text-align: justify;
+	}
+	#grid-container {
+		display: block;
+		grid-template-columns: auto auto;
+		justify-items: center;
+		align-items: center;
+		padding: 0px 25px;
+	}
+	#grid {
+		width: 100%;
+		height: 100%; 
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	#grid span {
+		font-family: papyrus;
+		font-weight: bold;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		font-size: 35px;
+	}
+	#grid-containers {
+		display: grid;
+		grid-template-columns: 5vw 50vw auto;
+		grid-template-rows: auto auto auto auto auto;
+		align-items: center;
+		justify-items: left;
+		padding-top: 20px;
+		padding-left: 16px;
+		background-color: #F0F0F0;
+		border: 2px solid #D0D0D0;
+		border-radius: 25px;
+		padding: 10px;
+	}
+	#grid-item {
+		font-family: Lucida Console;
+		text-shadow: 1px 1px 3px white;
+		letter-spacing: 2px;
+		padding: 3px;
+		font-size: 12px;
+	}
+	#box1 {
+		display: inline-block;
+		width: 352px;
+		height: 200px;
+		box-shadow: 5px 5px 10px black;
+		text-align: left;
+		line-height: 40px;
+		cursor: pointer;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/molhe.JPG");
+	}
+	#box2 {
+		display: inline-block;
+		width: 352px;
+		height: 200px;
+		box-shadow: 5px 5px 10px black;
+		text-align: left;
+		line-height: 40px;
+		cursor: pointer;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/ilha.JPG");
+	}
+	#marcadagua {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-image: url("./img/marcadagua.png");
+		background-position: right bottom;
+		opacity: 0.7;
+	}
+	#redimencionamento {
+		background-color: #F0F0F0;
+		border: 2px solid #D0D0D0;
+		border-radius: 25px;
+		font-family: 'Inconsolata', monospace;
+	}
+	#redimencionamento span {
+		font-size: 16px;
+	}
+	#destaque {
+		font-family: papyrus;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		font-size: 12px;
+	}
+	#contato {
+		display: grid;
+		grid-template-columns: 11vw auto;
+		grid-template-rows: auto auto;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		font-family: 'Inconsolata', monospace;
+		font-size: 17px;
+		color: black;
+		margin: auto;
+	}
+	#contato img {
+		width: 10vw;
+	}
+}
+@media screen and (min-width: 412px) {
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	html {
+		background-color: white;
+	}
+	body {
+		width: 100%;
+	}
+	header {
+		width: 100%;
+		height: 40vh;
+	}
+	main {
+		position: relative;
+		height: 100%;
+		width: 100%;
+		background-color: white;
+	}
+	footer {
+		position: absolute;
+		width: 100%;
+		background-color: white;
+		color: black;
+		text-align: center;
+		font-family: 'Inconsolata', monospace;
+		font-size: 12px;
+		padding: 30px 5px;
+		margin: 0 auto;
+	}
+	img {
+		width: 100%;
+	}
+	#copyright p {
+		text-shadow: 1px 1px 2px black;
+	}
+	#menub {
+		position: relative;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		padding: 10px;
+	}
+	#menubar {
+		cursor: pointer;
+		background-color: white;
+		color: black;
+		outline: none;
+		border: none;
+		list-style: none;
+		font-family: verdana;
+		font-weight: bold;
+		font-size: 15px;
+		padding: 16px;
+	}
+	#menubar:hover {
+		background: black;
+		border-radius: 25px;
+		color: white;
+	}
+	#capa {
+		position: relative;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/capa.jpg");
+		height: 100%;
+	}
+	#logo img {
+		display: block;
+		margin: auto;
+		max-width: 100%;
+	}
+	#lema {
+		position: absolute;
+		width: 38%;
+		top: 90%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+		color: white;
+		margin: auto;
+		text-align: center;
+		font-family: papyrus;
+		font-weight: bold;
+		font-size: 8px;
+		padding: 3px;
+	}
+	#lema span {
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+	}
+	#data {
+		font-family: papyrus;
+		font-weight: bold;
+		font-size: 14px;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		text-align: center;
+		padding: 35px 0px 0px;
+	}
+	#titulo {
+		font-family: papyrus;
+		font-weight: bold;
+		text-shadow: 1px 1px 2px #00FF00;
+		font-size: 17px;
+		letter-spacing: 3px;
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	#blog {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 15px;
+	}
+	#blog article {
+		font-family: 'Inconsolata', monospace;
+		font-size: 14px;
+		color: black;
+		text-align: justify;
+		padding: 10px;
+		padding-bottom: 30px;
+	}
+	#vlog {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 15px;
+	}
+	#vlog iframe {
+		width: 100%;
+		padding-bottom: 35px;
+	}
+	#vlog h1 {
+		font-size: 25px;
+		font-family: papyrus;
+	}
+	#sobre {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 25px;
+	}
+	#sobre article {
+		font-family: 'Inconsolata', monospace;
+		font-size: 14px;
+		color: black;
+		text-align: justify;
+	}
+	#grid-container {
+		display: block;
+		grid-template-columns: auto auto;
+		justify-items: center;
+		align-items: center;
+		padding: 0px 25px;
+	}
+	#grid {
+		width: 100%;
+		height: 100%; 
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	#grid span {
+		font-family: papyrus;
+		font-weight: bold;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		font-size: 35px;
+	}
+	#grid-containers {
+		display: grid;
+		grid-template-columns: 5vw 50vw auto;
+		grid-template-rows: auto auto auto auto auto;
+		align-items: center;
+		justify-items: left;
+		padding-top: 20px;
+		padding-left: 18px;
+		background-color: #F0F0F0;
+		border: 2px solid #D0D0D0;
+		border-radius: 25px;
+		padding: 10px;
+	}
+	#grid-item {
+		font-family: Lucida Console;
+		text-shadow: 1px 1px 3px white;
+		letter-spacing: 2px;
+		padding: 3px;
+		font-size: 13px;
+	}
+	#box1 {
+		display: inline-block;
+		width: 374px;
+		height: 179px;
+		box-shadow: 5px 5px 10px black;
+		text-align: left;
+		line-height: 40px;
+		cursor: pointer;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/molhe.JPG");
+	}
+	#box2 {
+		display: inline-block;
+		width: 374px;
+		height: 179px;
+		box-shadow: 5px 5px 10px black;
+		text-align: left;
+		line-height: 40px;
+		cursor: pointer;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/ilha.JPG");
+	}
+	#marcadagua {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-image: url("./img/marcadagua.png");
+		background-position: right bottom;
+		opacity: 0.7;
+	}
+	#redimencionamento {
+		background-color: #F0F0F0;
+		border: 2px solid #D0D0D0;
+		border-radius: 25px;
+		font-family: 'Inconsolata', monospace;
+	}
+	#redimencionamento span {
+		font-size: 16px;
+	}
+	#destaque {
+		font-family: papyrus;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		font-size: 13px;
+	}
+	#contato {
+		display: grid;
+		grid-template-columns: 11vw auto;
+		grid-template-rows: auto auto;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		font-family: 'Inconsolata', monospace;
+		font-size: 17px;
+		color: black;
+		margin: auto;
+	}
+	#contato img {
+		width: 10vw;
+	}
+}
+@media screen and (min-width: 414px) {
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	html {
+		background-color: white;
+	}
+	body {
+		width: 100%;
+	}
+	header {
+		width: 100%;
+		height: 45vh;
+	}
+	main {
+		position: relative;
+		height: 100%;
+		width: 100%;
+		background-color: white;
+	}
+	footer {
+		position: absolute;
+		width: 100%;
+		background-color: white;
+		color: black;
+		text-align: center;
+		font-family: 'Inconsolata', monospace;
+		font-size: 12px;
+		padding: 30px 5px;
+		margin: 0 auto;
+	}
+	img {
+		width: 100%;
+	}
+	#copyright p {
+		text-shadow: 1px 1px 2px black;
+	}
+	#menub {
+		position: relative;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		padding: 10px;
+	}
+	#menubar {
+		cursor: pointer;
+		background-color: white;
+		color: black;
+		outline: none;
+		border: none;
+		list-style: none;
+		font-family: verdana;
+		font-weight: bold;
+		font-size: 15px;
+		padding: 16px;
+	}
+	#menubar:hover {
+		background: black;
+		border-radius: 25px;
+		color: white;
+	}
+	#capa {
+		position: relative;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/capa.jpg");
+		height: 100%;
+	}
+	#logo img {
+		display: block;
+		margin: auto;
+		max-width: 100%;
+	}
+	#lema {
+		position: absolute;
+		width: 38%;
+		top: 90%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+		color: white;
+		margin: auto;
+		text-align: center;
+		font-family: papyrus;
+		font-weight: bold;
+		font-size: 8px;
+		padding: 3px;
+	}
+	#lema span {
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+	}
+	#data {
+		font-family: papyrus;
+		font-weight: bold;
+		font-size: 14px;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		text-align: center;
+		padding: 35px 0px 0px;
+	}
+	#titulo {
+		font-family: papyrus;
+		font-weight: bold;
+		text-shadow: 1px 1px 2px #00FF00;
+		font-size: 17px;
+		letter-spacing: 3px;
+		text-align: center;
+		padding: 25px 0 25px 0;
+	}
+	#blog {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 15px;
+	}
+	#blog article {
+		font-family: 'Inconsolata', monospace;
+		font-size: 14px;
+		color: black;
+		text-align: justify;
+		padding: 10px;
+		padding-bottom: 30px;
+	}
+	#vlog {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 15px;
+	}
+	#vlog iframe {
+		width: 100%;
+		padding-bottom: 35px;
+	}
+	#vlog h1 {
+		font-size: 25px;
+		font-family: papyrus;
+	}
+	#sobre {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 25px;
+	}
+	#sobre article {
+		font-family: 'Inconsolata', monospace;
+		font-size: 14px;
+		color: black;
+		text-align: justify;
+	}
+	#grid-container {
+		display: block;
+		grid-template-columns: auto auto;
+		justify-items: center;
+		align-items: center;
+		padding: 0px 20px;
+	}
+	#grid {
+		width: 100%;
+		height: 100%; 
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	#grid span {
+		font-family: papyrus;
+		font-weight: bold;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		font-size: 35px;
+		
+	}
+	#grid-containers {
+		display: grid;
+		grid-template-columns: 5vw 50vw auto;
+		grid-template-rows: auto auto auto auto auto;
+		align-items: center;
+		justify-items: left;
+		padding-top: 20px;
+		padding-left: 18px;
+		background-color: #F0F0F0;
+		border: 2px solid #D0D0D0;
+		border-radius: 25px;
+		padding: 10px;
+	}
+	#grid-item {
+		font-family: Lucida Console;
+		text-shadow: 1px 1px 3px white;
+		letter-spacing: 2px;
+		padding: 3px;
+		font-size: 13px;
+	}
+	#box1 {
+		display: inline-block;
+		width: 376px;
+		height: 181px;
+		box-shadow: 5px 5px 10px black;
+		text-align: left;
+		line-height: 40px;
+		cursor: pointer;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/molhe.JPG");
+	}
+	#box2 {
+		display: inline-block;
+		width: 376px;
+		height: 181px;
+		box-shadow: 5px 5px 10px black;
+		text-align: left;
+		line-height: 40px;
+		cursor: pointer;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/ilha.JPG");
+	}
+	#marcadagua {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-image: url("./img/marcadagua.png");
+		background-position: right bottom;
+		opacity: 0.7;
+	}
+	#redimencionamento {
+		background-color: #F0F0F0;
+		border: 2px solid #D0D0D0;
+		border-radius: 25px;
+		font-family: 'Inconsolata', monospace;
+		padding: 10px;
+	}
+	#redimencionamento span {
+		font-size: 16px;
+	}
+	#destaque {
+		font-family: papyrus;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		font-size: 13px;
+	}
+	#contato {
+		display: grid;
+		grid-template-columns: 11vw auto;
+		grid-template-rows: auto auto;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		font-family: 'Inconsolata', monospace;
+		font-size: 17px;
+		color: black;
+		margin: auto;
+	}
+	#contato img {
+		width: 10vw;
+	}
+}
+@media screen and (min-width: 428px) {
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	html {
+		background-color: white;
+	}
+	body {
+		width: 100%;
+	}
+	header {
+		width: 100%;
+		height: 40vh;
+	}
+	main {
+		position: relative;
+		height: 100%;
+		width: 100%;
+		background-color: white;
+	}
+	footer {
+		position: absolute;
+		width: 100%;
+		background-color: white;
+		color: black;
+		text-align: center;
+		font-family: 'Inconsolata', monospace;
+		font-size: 12px;
+		padding: 30px 7px;
+		margin: 0 auto;
+	}
+	img {
+		width: 100%;
+	}
+	#copyright p {
+		text-shadow: 1px 1px 2px black;
+	}
+	#menub {
+		position: relative;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		padding: 10px;
+	}
+	#menubar {
+		cursor: pointer;
+		background-color: white;
+		color: black;
+		outline: none;
+		border: none;
+		list-style: none;
+		font-family: verdana;
+		font-size: 15px;
+		font-weight: 0;
+		padding: 16px;
+	}
+	#menubar:hover {
+		background: black;
+		border-radius: 25px;
+		color: white;
+	}
+	#capa {
+		position: relative;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/capa.jpg");
+		height: 100%;
+	}
+	#logo img {
+		display: block;
+		margin: auto;
+		max-width: 90%;
+	}
+	#lema {
+		position: absolute;
+		width: 37%;
+		top: 90%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+		color: white;
+		margin: auto;
+		text-align: center;
+		font-family: papyrus;
+		font-weight: bold;
+		font-size: 8px;
+		padding: 3px;
+	}
+	#lema span {
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+	}
+	#data {
+		font-family: papyrus;
+		font-weight: bold;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		text-align: center;
+		font-size: 15px;
+		padding: 35px 0px 0px;
+	}
+	#titulo {
+		font-family: papyrus;
+		font-weight: bold;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	#blog {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 15px;
+	}
+	#blog article {
+		font-family: 'Inconsolata', monospace;
+		font-size: 14px;
+		color: black;
+		text-align: justify;
+		padding: 10px;
+		padding-bottom: 30px;
+	}
+	#vlog {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 15px;
+	}
+	#vlog iframe {
+		width: 100%;
+		padding-bottom: 35px;
+	}
+	#vlog h1 {
+		font-size: 25px;
+		font-family: papyrus;
+	}
+	#sobre {
+		position: relative;
+		width: 100%;
+		margin: auto;
+		padding: 25px;
+	}
+	#sobre article {
+		font-family: 'Inconsolata', monospace;
+		font-size: 14px;
+		color: black;
+		text-align: justify;
+	}
+	#grid-container {
+		display: block;
+		grid-template-columns: auto auto;
+		justify-items: center;
+		align-items: center;
+		padding: 0px 25px;
+	}
+	#grid {
+		width: 100%;
+		height: 100%; 
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	#grid span {
+		font-family: papyrus;
+		font-weight: bold;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		font-size: 35px;
+	}
+	#grid-containers {
+		display: grid;
+		grid-template-columns: 5vw 52vw auto;
+		grid-template-rows: auto auto auto auto auto;
+		align-items: center;
+		justify-items: left;
+		padding-top: 20px;
+		padding-left: 16px;
+		background-color: #F0F0F0;
+		border: 2px solid #D0D0D0;
+		border-radius: 25px;
+		padding: 10px;
+	}
+	#grid-item {
+		font-family: Lucida Console;
+		text-shadow: 1px 1px 3px white;
+		letter-spacing: 2px;
+		padding: 3px;
+		font-size: 14px;
+	}
+	#box1 {
+		display: inline-block;
+		width: 390px;
+		height: 195px;
+		box-shadow: 5px 5px 10px black;
+		text-align: left;
+		line-height: 40px;
+		cursor: pointer;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/molhe.JPG");
+	}
+	#box2 {
+		display: inline-block;
+		width: 390px;
+		height: 195px;
+		box-shadow: 5px 5px 10px black;
+		text-align: left;
+		line-height: 40px;
+		cursor: pointer;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/ilha.JPG");
+	}
+	#marcadagua {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-image: url("./img/marcadagua.png");
+		background-position: right bottom;
+		opacity: 0.7;
+	}
+	#redimencionamento {
+		background-color: #F0F0F0;
+		border: 2px solid #D0D0D0;
+		border-radius: 25px;
+		font-family: 'Inconsolata', monospace;
+		padding: 10px;
+	}
+	#redimencionamento span {
+		font-size: 17px;
+	}
+	#destaque {
+		font-family: papyrus;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		font-size: 14px;
+	}
+	#contato {
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-template-rows: auto auto;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+	}
+	#contato {
+		display: grid;
+		grid-template-columns: 11vw auto;
+		grid-template-rows: auto auto;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		font-family: 'Inconsolata', monospace;
+		font-size: 17px;
+		color: black;
+		margin: auto;
+	}
+	#contato img {
+		width: 10vw;
+	}
+}
+@media screen and (min-width: 768px) {
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	html {
+		background-color: white;
+	}
+	body {
+		width: 100%;
+	}
+	header {
+		width: 100%;
+		height: 45vh;
+	}
+	main {
+		position: relative;
+		height: 100%;
+		width: 100%;
+		background-color: white;
+	}
+	footer {
+		position: absolute;
+		width: 100%;
+		background-color: white;
+		color: black;
+		text-align: center;
+		font-family: 'Inconsolata', monospace;
+		font-size: 14px;
+		padding: 25px;
+		margin: 0 auto;
+	}
+	img {
+		width: 100%;
+	}
+	#copyright p {
+		text-shadow: 1px 1px 2px black;
+	}
+	#menub {
+		position: relative;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		padding: 10px;
+	}
+	#menubar {
+		cursor: pointer;
+		background-color: white;
+		color: black;
+		outline: none;
+		border: none;
+		list-style: none;
+		font-family: verdana;
+		font-weight: bold;
+		font-size: 12px;
+		padding: 16px;
+	}
+	#menubar:hover {
+		background: black;
+		border-radius: 25px;
+		color: white;
+	}
+	#capa {
+		position: relative;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/capa.jpg");
+		height: 100%;
+	}
+	#logo img {
+		display: block;
+		margin: auto;
+		max-width: 70%;
+	}
+	#lema {
+		position: absolute;
+		width: 80%;
+		top: 93%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+		color: white;
+		margin: auto;
+		text-align: center;
+		font-family: papyrus;
+		font-weight: bold;
+		font-size: 8px;
+		padding: 3px;
+	}
+	#lema span {
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+	}
+	#data {
+		font-family: papyrus;
+		font-weight: bold;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		text-align: center;
+		padding: 35px;
+	}
+	#index {
+		position: relative;
+		width: 100vw;
+		margin: auto;
+		font-family: 'Inconsolata', monospace;
+		padding: 10px;
+	}
+	#titulo {
+		font-family: papyrus;
+		font-weight: bold;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		text-align: center;
+		padding: 35px;
+	}
+	#blog {
+		position: relative;
+		width: 100%;
+		margin: auto;
+	}
+	#blog article {
+		font-family: 'Inconsolata', monospace;
+		font-size: 14px;
+		color: black;
+		text-align: justify;
+		padding: 25px;
+	}
+	#vlog {
+		position: relative;
+		width: 100%;
+		margin: auto;
+	}
+	#vlog iframe {
+		width: 100%;
+		padding-bottom: 35px;
+	}
+	#vlog h1 {
+		font-size: 40px;
+		font-family: papyrus;
+	}
+	#sobre {
+		position: relative;
+		width: 100%;
+		margin: auto;
+	}
+	#sobre article {
+		font-family: 'Inconsolata', monospace;
+		font-size: 14px;
+		color: black;
+		text-align: justify;
+		padding: 25px;
+	}
+	#grid-container {
+		display: grid;
+		grid-template-columns: auto auto;
+		justify-items: center;
+		align-items: center;
+	}
+	#grid {
+		width: 100%;
+		height: 100%;
+	}
+	#grid span {
+		font-family: papyrus;
+		font-weight: bold;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		font-size: 30px;
+	}
+	#grid-containers {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		grid-template-rows: auto auto auto auto auto;
+		align-items: center;
+		justify-items: left;
+		background-color: #F0F0F0;
+		border: 2px solid #D0D0D0;
+		border-radius: 25px;
+		padding: 10px;
+	}
+	#grid-item {
+		font-family: Lucida Console;
+		text-shadow: 1px 1px 3px white;
+		letter-spacing: 2px;
+		font-size: 13px;
+	}
+	#box1 {
+		display: inline-block;
+		width: 350px;
+		height: 175px;
+		background-color: grey;
+		text-align: left;
+		line-height: 40px;
+		cursor: pointer;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/molhe.JPG");
+	}
+	#box2 {
+		display: inline-block;
+		width: 350px;
+		height: 175px;
+		background-color: grey;
+		text-align: left;
+		line-height: 40px;
+		cursor: pointer;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/ilha.JPG");
+	}
+	#marcadagua {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-image: url("./img/marcadagua.png");
+		background-position: right bottom;
+		opacity: 0.7;
+	}
+	#redimencionamento {
+		position: relative;
+		width: 70vw;
+		margin: auto;
+		font-family: 'Inconsolata', monospace;
+		background-color: #F0F0F0;
+		border: 2px solid #D0D0D0;
+		border-radius: 25px;
+		padding: 10px;
+	}
+	#destaque {
+		font-family: papyrus;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		font-size: 13px;
+	}
+	#contato {
+		display: grid;
+		grid-template-columns: 9vw 20vw;
+		grid-template-rows: auto auto;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		font-family: 'Inconsolata', monospace;
+		font-size: 17px;
+		color: black;
+		margin: auto;
+	}
+	#contato img {
+		width: 7vw;
+	}
+}
+@media screen and (min-width: 1280px) {
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	html {
+		background-color: white;
+	}
+	body {
+		width: 100%;
+	}
+	header {
+		width: 100%;
+		height: 25vw;
+	}
+	main {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-color: white;
+	}
+	footer {
+		position: absolute;
+		width: 100%;
+		background-color: white;
+		color: black;
+		text-align: center;
+		font-family: 'Inconsolata', monospace;
+		font-size: 14px;
+		padding: 70px 25px 25px;
+		margin: 0 auto;
+	}
+	img {
+		width: 100%;
+	}
+	#copyright p {
+		text-shadow: 1px 1px 2px black;
+	}
+	#menub {
+		position: relative;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	#menubar {
+		cursor: pointer;
+		background-color: white;
+		color: black;
+		outline: none;
+		border: none;
+		border-radius: 25px;
+		list-style: none;
+		font-family: verdana;
+		font-weight: bold;
+		font-size: 16px;
+		padding: 16px;
+	}
+	#menubar:hover {
+		background: black;
+		border-radius: 25px;
+		color: white;
+	}
+	#capa {
+		position: relative;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/capa.jpg");
+		min-height: 100%;
+	}
+	#logo img {
+		position: relative;
+		width: 32%;
+		height: 100%;
+		margin: auto;
+	}
+	#lema {
+		position: absolute;
+		width: 100%;
+		top: 92%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+		margin: auto;
+	}
+	#lema span {
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		color: white;
+		font-family: papyrus;
+		font-weight: bold;
+		font-size: 8px;
+	}
+	#data {
+		font-family: papyrus;
+		font-weight: bold;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		text-align: center;
+		padding: 35px;
+	}
+	#titulo {
+		font-family: papyrus;
+		font-weight: bold;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		text-align: center;
+		padding: 35px;
+	}
+	#blog {
+		position: relative;
+		width: 50vw;
+		margin: auto;
+	}
+	#blog article {
+		font-family: 'Inconsolata', monospace;
+		font-size: 14px;
+		color: black;
+		text-align: justify;
+	}
+	#vlog {
+		position: relative;
+		width: 50vw;
+		margin: auto;
+	}
+	#vlog iframe {
+		width: 100%;
+		padding-bottom: 35px;
+	}
+	#vlog h1 {
+		font-size: 40px;
+		font-family: papyrus;
+	}
+	#sobre {
+		position: relative;
+		width: 50vw;
+		margin: auto;
+	}
+	#sobre article {
+		font-family: 'Inconsolata', monospace;
+		font-size: 14px;
+		color: black;
+		text-align: justify;
+	}
+	#grid-container {
+		display: grid;
+		grid-template-columns: 750px auto;
+	}
+	#grid {
+		width: 80%;
+		height: 65%;
+	}
+	#grid span {
+		font-family: papyrus;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		font-size: 25px;
+	}
+	#grid-containers {
+		display: grid;
+		grid-template-columns: 50px 250px 500px;
+		grid-template-rows: auto auto auto auto auto;
+		background-color: #F0F0F0;
+		border: 2px solid #D0D0D0;
+		border-radius: 25px;
+		padding: 10px;
+	}
+	#grid-item {
+		font-family: Lucida Console;
+		text-shadow: 1px 1px 3px white;
+		letter-spacing: 2px;
+		font-size: 15px;
+	}
+	#box1 {
+		display: grid;
+		width: 400px;
+		height: 200px;
+		cursor: pointer;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/molhe.JPG");
+	}
+	#box2 {
+		display: grid;
+		width: 400px;
+		height: 200px;
+		cursor: pointer;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/ilha.JPG");
+	}
+	#marcadagua {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-image: url("./img/marcadagua.png");
+		background-position: right bottom;
+		opacity: 0.7;
+	}
+	#redimencionamento {
+		position: relative;
+		width: 50vw;
+		max-width: 100%;
+		margin: auto;
+		font-family: 'Inconsolata', monospace;
+		background-color: #F0F0F0;
+		border: 2px solid #D0D0D0;
+		border-radius: 25px;
+		padding: 10px;
+	}
+	#destaque {
+		font-family: papyrus;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		font-size: 15px;
+	}
+	#contato {
+		display: grid;
+		grid-template-columns: 4vw 19vw;
+		grid-template-rows: auto auto;
+		justify-items: left;
+		margin: auto;
+	}
+	#contato img {
+		width: 3vw;
+	}
+	#feliznatal { 
+		display: flex; 
+		justify-content: center; 
+		align-items: center; 
+		height: 10vh; 
+	} 
+	#feliznatal img { 
+		max-width: 10%; 
+		height: auto; 
+	}
+}
+@media screen and (min-width: 1600px) {
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	html {
+		background-color: white;
+	}
+	body {
+		width: 100%;
+	}
+	header {
+		width: 100%;
+		height: 350px;
+	}
+	main {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-color: white;
+	}
+	footer {
+		position: absolute;
+		width: 100%;
+		background-color: white;
+		color: black;
+		text-align: center;
+		font-family: 'Inconsolata', monospace;
+		font-size: 14px;
+		padding: 25px;
+		margin: 0 auto;
+	}
+	img {
+		width: 100%;
+	}
+	#copyright p {
+		text-shadow: 1px 1px 2px black;
+	}
+	#menub {
+		position: relative;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	#menubar {
+		cursor: pointer;
+		background-color: white;
+		color: black;
+		outline: none;
+		border: none;
+		border-radius: 25px;
+		list-style: none;
+		font-family: verdana;
+		font-weight: bold;
+		font-size: 16px;
+		padding: 16px;
+	}
+	#menubar:hover {
+		background: black;
+		border-radius: 25px;
+		color: white;
+	}
+	#capa {
+		position: relative;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/capa.jpg");
+		min-height: 100%;
+	}
+	#logo img {
+		position: relative;
+		width: 28%;
+		height: 100%;
+		margin: auto;
+	}
+	#lema {
+		position: absolute;
+		width: 100%;
+		top: 92%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+		margin: auto;
+	}
+	#lema span {
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		color: white;
+		font-family: papyrus;
+		font-weight: bold;
+		font-size: 8px;
+	}
+	#data {
+		font-family: papyrus;
+		font-weight: bold;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		text-align: center;
+		padding: 35px;
+	}
+	#titulo {
+		font-family: papyrus;
+		font-weight: bold;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		text-align: center;
+		padding: 35px;
+	}
+	#blog {
+		position: relative;
+		width: 50vw;
+		margin: auto;
+	}
+	#blog article {
+		font-family: 'Inconsolata', monospace;
+		font-size: 14px;
+		color: black;
+		text-align: justify;
+	}
+	#vlog {
+		position: relative;
+		width: 50vw;
+		margin: auto;
+	}
+	#vlog iframe {
+		width: 100%;
+		padding-bottom: 35px;
+	}
+	#vlog h1 {
+		font-size: 40px;
+		font-family: papyrus;
+	}
+	#sobre {
+		position: relative;
+		width: 50vw;
+		margin: auto;
+	}
+	#sobre article {
+		font-family: 'Inconsolata', monospace;
+		font-size: 14px;
+		color: black;
+		text-align: justify;
+	}
+	#grid-container {
+		display: grid;
+		grid-template-columns: auto auto;
+	}
+	#grid {
+		width: 80%;
+		height: 65%;
+	}
+	#grid span {
+		font-family: papyrus;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		font-size: 25px;
+	}
+	#grid-containers {
+		display: grid;
+		grid-template-columns: 50px 450px 300px;
+		grid-template-rows: auto auto auto auto auto;
+		background-color: #F0F0F0;
+		border: 2px solid #D0D0D0;
+		border-radius: 25px;
+		padding: 10px;
+	}
+	#grid-item {
+		font-family: Lucida Console;
+		text-shadow: 1px 1px 3px white;
+		letter-spacing: 2px;
+		font-size: 15px;
+	}
+	#box1 {
+		display: grid;
+		width: 400px;
+		height: 200px;
+		cursor: pointer;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/molhe.JPG");
+	}
+	#box2 {
+		display: grid;
+		width: 400px;
+		height: 200px;
+		cursor: pointer;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/ilha.JPG");
+	}
+	#marcadagua {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-image: url("./img/marcadagua.png");
+		background-position: right bottom;
+		opacity: 0.7;
+	}
+	#redimencionamento {
+		position: relative;
+		width: 50vw;
+		max-width: 65%;
+		margin: auto;
+		font-family: 'Inconsolata', monospace;
+		background-color: #F0F0F0;
+		border: 2px solid #D0D0D0;
+		border-radius: 25px;
+		padding: 10px;
+	}
+	#destaque {
+		font-family: papyrus;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		font-size: 15px;
+	}
+	#contato {
+		display: grid;
+		grid-template-columns: 1vw 18vw;
+		grid-template-rows: auto auto;
+		justify-items: left;
+		margin: auto;
+	}
+	#contato img {
+		width: 3vw;
+	}
+}
+@media screen and (min-width: 1920px) {
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	html {
+		background-color: white;
+	}
+	body {
+		width: 100%;
+	}
+	header {
+		width: 100%;
+		height: 350px;
+	}
+	main {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-color: white;
+	}
+	footer {
+		position: absolute;
+		width: 100%;
+		background-color: white;
+		color: black;
+		text-align: center;
+		font-family: 'Inconsolata', monospace;
+		font-size: 14px;
+		padding: 25px;
+		margin: 0 auto;
+	}
+	img {
+		width: 100%;
+	}
+	#copyright p {
+		text-shadow: 1px 1px 2px black;
+	}
+	#menub {
+		position: relative;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	#menubar {
+		cursor: pointer;
+		background-color: white;
+		color: black;
+		outline: none;
+		border: none;
+		border-radius: 25px;
+		list-style: none;
+		font-family: verdana;
+		font-weight: bold;
+		font-size: 16px;
+		padding: 16px;
+	}
+	#menubar:hover {
+		background: black;
+		border-radius: 25px;
+		color: white;
+	}
+	#capa {
+		position: relative;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/capa.jpg");
+		min-height: 100%;
+	}
+	#logo img {
+		position: relative;
+		width: 24%;
+		height: 80%;
+		margin: auto;
+	}
+	#lema {
+		position: absolute;
+		width: 100%;
+		top: 92%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+		margin: auto;
+	}
+	#lema span {
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		color: white;
+		font-family: papyrus;
+		font-weight: bold;
+		font-size: 9px;
+	}
+	#data {
+		font-family: papyrus;
+		font-weight: bold;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		text-align: center;
+		padding: 35px;
+	}
+	#titulo {
+		font-family: papyrus;
+		font-weight: bold;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		text-align: center;
+		padding: 35px;
+	}
+	#blog {
+		position: relative;
+		width: 50vw;
+		margin: auto;
+	}
+	#blog article {
+		font-family: 'Inconsolata', monospace;
+		font-size: 16px;
+		color: black;
+		text-align: justify;
+	}
+	#vlog {
+		position: relative;
+		width: 50vw;
+		margin: auto;
+	}
+	#vlog iframe {
+		width: 100%;
+		padding-bottom: 35px;
+	}
+	#vlog h1 {
+		font-size: 40px;
+		font-family: papyrus;
+	}
+	#sobre {
+		position: relative;
+		width: 50vw;
+		margin: auto;
+	}
+	#sobre article {
+		font-family: 'Inconsolata', monospace;
+		font-size: 16px;
+		color: black;
+		text-align: justify;
+	}
+	#grid-container {
+		display: grid;
+		grid-template-columns: auto auto;
+	}
+	#grid {
+		width: 80%;
+		height: 65%;
+	}
+	#grid span {
+		font-family: papyrus;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		font-size: 25px;
+	}
+	#grid-containers {
+		display: grid;
+		grid-template-columns: 50px 450px 300px;
+		grid-template-rows: auto auto auto auto auto;
+		background-color: #F0F0F0;
+		border: 2px solid #D0D0D0;
+		border-radius: 25px;
+		padding: 10px;
+	}
+	#grid-item {
+		font-family: Lucida Console;
+		text-shadow: 1px 1px 3px white;
+		letter-spacing: 2px;
+		font-size: 15px;
+	}
+	#box1 {
+		display: grid;
+		width: 400px;
+		height: 200px;
+		cursor: pointer;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/molhe.JPG");
+	}
+	#box2 {
+		display: grid;
+		width: 400px;
+		height: 200px;
+		cursor: pointer;
+		background-position: center;
+		background-size: cover;
+		background-image: url("./img/ilha.JPG");
+	}
+	#marcadagua {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-image: url("./img/marcadagua.png");
+		background-position: right bottom;
+		opacity: 0.7;
+	}
+	#redimencionamento {
+		position: relative;
+		width: 50vw;
+		max-width: 65%;
+		margin: auto;
+		font-family: 'Inconsolata', monospace;
+		background-color: #F0F0F0;
+		border: 2px solid #D0D0D0;
+		border-radius: 25px;
+		padding: 10px;
+	}
+	#destaque {
+		font-family: papyrus;
+		text-shadow: 1px 1px 2px #00FF00;
+		letter-spacing: 3px;
+		font-size: 15px;
+	}
+	#contato {
+		display: grid;
+		grid-template-columns: 1vw 18vw;
+		grid-template-rows: auto auto;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+	}
+	#contato img {
+		width: 3vw;
+	}
+}
